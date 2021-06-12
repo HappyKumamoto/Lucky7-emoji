@@ -15,16 +15,17 @@
    padding-left: 100%;
    white-space: nowrap;     /*これがないと文字2つ以上はタテにならぶ*/
    animation: marquee 12s linear infinite;
+   animation-timing-function:cubic-bezier(.17,.67,.15,.50);
    }
    
   @keyframes marquee {
        0%{
-           transform: translate(-30%);
+           transform: translate(-20%);
         }
          50% {
-            transform: translate(-70%);
+            transform: translate(-80%);
         }
        100%{
-           transform: translate(-30%);
+           transform: translate(-20%);
         }
        
