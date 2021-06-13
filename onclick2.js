@@ -26,7 +26,7 @@ if(confirm(`  👉[[  OK  ]]を押して7秒経ったと思ったら👉 [[  ☁
                   //キャンセルが押されるとfalseが返る
                   
         //let messages = [' &#x1f388; ' , ' &#x1fa81; ',' &#x26bd; ' ]; //innerHTMLで表示
-         let messages = [' 💡 ' , ' 🌧️ ',' 🍌 ', ' 🏐 ',' 🎈 ', '🧾 ','  🌵 ' , '☁️ '  , ' 🤍 ' , ' ❄ ' , ' 💭 '  , ' 🥚 ' , '🖱' , '  📄 ' ];
+         let messages = [' 💡 ' , ' 🌧️ ',' 🍌 ', ' 🏐 ',' 🎈 ','  🌵 ' , '☁️ '  , ' 🤍 ' , ' ❄ ' , ' 💭 '  , ' 🥚 ' , '🖱' , '🚃🚃🚃🚃🚃' ];
         let messageNo = Math.floor( Math.random() * messages.length);
         console.log(messages[messageNo]);
         document.getElementById('onclick-area').innerText = messages[messageNo];
