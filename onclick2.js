@@ -18,7 +18,7 @@ function stop() {
         displayArea.innerText = `${seconds}秒でした！
         (*>ω<)おしいです！ `;
     }
-  document.body.onclick = null;
+  document.body.onclick = null;  //二回目以降は押せない
 }
 
 if(confirm(`  👉[[  OK  ]]を押して7秒経ったと思ったら👉 [[  ☁️  ]]を押してください！ `)){
